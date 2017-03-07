@@ -1,0 +1,213 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+// Reset and dependencies
+@import "bootstrap/normalize";
+/*@import "bootstrap/print";*/
+@import "bootstrap/glyphicons";
+
+// Core CSS
+@import "bootstrap/scaffolding";
+@import "bootstrap/type";
+/*@import "bootstrap/code";*/
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/carousel";
+@import "bootstrap/navbar";
+@import "bootstrap/navs";
+@import "bootstrap/dropdowns";
+
+// Components
+/*@import "bootstrap/component-animations";
+
+@import "bootstrap/button-groups";
+@import "bootstrap/input-groups";
+
+
+@import "bootstrap/breadcrumbs";
+@import "bootstrap/pagination";
+@import "bootstrap/pager";
+@import "bootstrap/labels";
+@import "bootstrap/badges";
+@import "bootstrap/jumbotron";
+@import "bootstrap/thumbnails";
+@import "bootstrap/alerts";
+@import "bootstrap/progress-bars";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/panels";
+@import "bootstrap/responsive-embed";
+@import "bootstrap/wells";
+@import "bootstrap/close";
+
+// Components w/ JavaScript
+@import "bootstrap/modals";
+@import "bootstrap/tooltip";
+@import "bootstrap/popovers";
+
+*/
+// Utility classes
+@import "bootstrap/utilities";
+@import "bootstrap/responsive-utilities";
+
+header {
+	background: url(../images/header-bg.jpg) no-repeat;
+	h1 {
+		margin: 0px;
+		width: 300px;
+		height: 100px;
+		text-indent:-9999999px;
+	a {
+		background: url(../images/jewelery.png) no-repeat;
+		display:block;
+		height:50px;
+	}
+	}
+}
+ul.main-menu {list-style: none;
+		font-size:14px;
+	.sub-menu {
+		display:none;
+		position:absolute;
+		left: 0;
+		padding-left: 0;
+		z-index: 1;
+		li {display:block;
+			width:100px;
+			border-bottom: 1px solid #909090;
+		}
+	}
+	li {
+		display:inline-block;
+		padding:20px;
+		vertical-align: top;
+		a {
+		color: #ffffff;
+	}
+	a:hover {color: #909090;text-decoration: none;}
+	a:focus {color: #909090;text-decoration: none;}
+	}
+	li.open{position: relative;}
+	li.open .sub-menu {display:block;}
+}
+.head-f {background: url(../images/F.png);
+	display: inline-block;
+	width: 9px;
+	height: 16px;
+	margin-left: 10px;
+	vertical-align:top;
+	margin-top:20px;
+}
+.head-tw {background: url(../images/L.png) 0 -12px;
+	display: inline-block;
+	width: 16px;
+	height: 12px;
+	vertical-align:top;
+	margin-top:23px;
+}
+.header-content {
+	margin-top: 150px;
+	padding-bottom: 150px;
+	color: #ffffff;
+	p {color: #ffffff;}
+	h2 {
+		width: 350px;
+    	font-weight: bold;
+    	margin-bottom: 30px;
+	}
+	.btn {color: #ffffff;}
+	.btn-default {
+		background-color: transparent;
+	}
+}
+.about {
+	padding: 100px 0;
+	border-bottom:1px solid #f1f1f1;
+	
+}
+.header-text {
+		color:#464646;
+		font-weight: bold;
+		font-size: 48px;
+		text-transform: uppercase;
+		padding-top: 50px;
+}
+.small-header{
+	text-align: center;
+	width:450px;
+	margin:100px auto 0 auto;
+
+	.small-head-text {
+		color:#464646;
+		font-weight: bold;
+		font-size:30px;
+		margin-bottom:0;
+}
+}
+h4 {font-weight:bold;color:#464646;}
+.grey-bg {background:#faf9f9;padding: 20px 0;margin-top:100px;}
+.carousel-caption {
+	.small-header {text-align:left;margin-top:0;
+	p {width:320px;}
+	} 
+}
+.wrap {padding:100px 0;}
+figure {
+	position:relative;
+	margin: 30px 0;
+	.small-header{
+		margin:0;
+		position:absolute;
+		right:35%;
+		bottom:10%;
+		text-transform:uppercase;
+		width: 150px;
+    	text-align: left;
+	}
+}
+.jewelery {width:200px;}
+.bg-small-head {
+	padding:10px 0 10px 45px;
+	background:url(../images/comment.png) no-repeat;
+	}
+.bg-small-head~p {padding-left:45px;}
+figure .small-header.two{
+		padding-left:50px;
+		width:180px;
+		position:relative;
+		display:inline-block;
+		vertical-align:middle;
+		right:0;
+		bottom:0;
+		margin-right: 224px;
+	}
+footer {
+	padding:75px 0;
+	background:#141414;
+	a.ft-fb, .ft-tw, .ft-d, .ft-g {
+		display:inline-block;
+		width:25px;
+		height:23px;
+	}
+	p {color:#474747;text-align:right;}
+	img {margin-bottom:50px;}
+}
+.ft-fb{background:url(../images/social-sprite.png);}
+.ft-tw{background:url(../images/social-sprite.png)-30px 0;}
+.ft-d{background:url(../images/social-sprite.png)-70px 0;}
+.ft-g{background:url(../images/social-sprite.png)25px 0;}
+ .f-menu {
+ 	display:block;
+ 	color:#474747;
+ 	padding-bottom:10px;
+ }
+
